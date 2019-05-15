@@ -83,7 +83,7 @@ df.ave <- df.mu %>%
   summarize_all(list(mean))
 
 #Write the output data -- this is the answer of a tidy data set
-write.csv(df.ave, file = "AverageMeasures.csv", row.names = FALSE)
+write.table(df.ave, file = "AverageMeasures.txt", row.names = FALSE)
 
 #To read this back in, the script is:
-# df <- read.csv("AverageMeasures.csv", stringsAsFactors = FALSE)
+# df <- read.table("AverageMeasures.txt", header = TRUE, stringsAsFactors = FALSE)
