@@ -30,124 +30,217 @@ Activity
  tBodyAcc.mean.X  
  tBodyAcc.mean.Y 
  tBodyAcc.mean.Z
-   Description: An index number of the subject; identiefies a subject.
-   Class: Integer
-   Units:  This is an index (1:30) of each subject
+   Description: Mean of the mean time of body acceleration measure taken in the X/Y/Z direction.
+   Class: Numeric
+   Units:  seconds
    
  tBodyAcc.std.X    
  tBodyAcc.std.Y     
  tBodyAcc.std.Z   
- 
+   Description: Mean of the standard deviation of time of body acceleration measure taken in the X/Y/Z direction.
+   Class: Numeric
+   Units:  seconds 
  
  tGravityAcc.mean.X 
  tGravityAcc.mean.Y 
  tGravityAcc.mean.Z
- 
+   Description: Mean of the mean time of gravity acceleration measure taken in the X/Y/Z direction.
+   Class: Numeric
+   Units:  seconds
+   
  tGravityAcc.std.X
  tGravityAcc.std.Y 
  tGravityAcc.std.Z 
- 
+   Description: Mean of the standard deviation of time of gravity acceleration measure taken in the X/Y/Z direction.
+   Class: Numeric
+   Units:  seconds
+   
  tBodyAccJerk.mean.X 
  tBodyAccJerk.mean.Y 
  tBodyAccJerk.mean.Z 
- 
+   Description: Mean of the mean time of body acceleration jerk measure taken in the X/Y/Z direction.
+   Class: Numeric
+   Units:  seconds
+   
  tBodyAccJerk.std.X 
  tBodyAccJerk.std.Y 
  tBodyAccJerk.std.Z
- 
+   Description: Mean of the standard deviation of time of body acceleration jerk measure taken in the X/Y/Z direction.
+   Class: Numeric
+   Units:  seconds 
  
  tBodyGyro.mean.X   
  tBodyGyro.mean.Y   
  tBodyGyro.mean.Z
- 
+   Description: Mean of the mean time of body gyration measure taken in the X/Y/Z direction.
+   Class: Numeric
+   Units:  seconds 
+   
  tBodyGyro.std.X  
  tBodyGyro.std.Y   
  tBodyGyro.std.Z
- 
+   Description: Mean of the standard deviation of time of body gyration measure taken in the X/Y/Z direction.
+   Class: Numeric
+   Units:  seconds 
+   
  tBodyGyroJerk.mean.X 
  tBodyGyroJerk.mean.Y
  tBodyGyroJerk.mean.Z
- 
+   Description: Mean of the mean time of body gyration jerk measure taken in the X/Y/Z direction.
+   Class: Numeric
+   Units:  seconds 
+   
  tBodyGyroJerk.std.X 
  tBodyGyroJerk.std.Y
  tBodyGyroJerk.std.Z
- 
+   Description: Mean of the standard deviation of time of body gyration jerk measure taken in the X/Y/Z direction.
+   Class: Numeric
+   Units:  seconds 
+   
  tBodyAccMag.mean  
  tBodyAccMag.std
- 
+   Description: Mean of the mean, or standard deviation, time of body acceleration magnitude measure taken in the X/Y/Z direction.
+   Class: Numeric
+   Units:  seconds 
+   
  tGravityAccMag.mean   
  tGravityAccMag.std 
- 
+   Description: Mean of the mean, or standard deviation, time of gravity acceleration magnitude measure taken in the X/Y/Z direction.
+   Class: Numeric
+   Units:  seconds 
+   
  tBodyAccJerkMag.mean 
  tBodyAccJerkMag.std 
- 
+   Description: Mean of the mean, or standard deviation, time of body acceleration jerk magnitude measure taken in the X/Y/Z direction.
+   Class: Numeric
+   Units:  seconds 
+   
  tBodyGyroMag.mean
  tBodyGyroMag.std  
- 
+   Description: Mean of the mean, or standard deviation, time of body gyration magnitude measure taken in the X/Y/Z direction.
+   Class: Numeric
+   Units:  seconds 
+   
  tBodyGyroJerkMag.mean 
  tBodyGyroJerkMag.std 
- 
+   Description: Mean of the mean, or standard deviation, time of body gyration jerk magnitude measure taken in the X/Y/Z direction.
+   Class: Numeric
+   Units:  seconds 
+   
  fBodyAcc.mean.X  
  fBodyAcc.mean.Y    
  fBodyAcc.mean.Z   
- 
+   Description: Mean of the mean force of body acceleration measure taken in the X/Y/Z direction.
+   Class: Numeric
+   Units:  normalized force 
+   
  fBodyAcc.std.X    
  fBodyAcc.std.Y    
  fBodyAcc.std.Z    
- 
+   Description: Mean of the standard deviation of force of body acceleration measure taken in the X/Y/Z direction.
+   Class: Numeric
+   Units:  normalized force 
+   
  fBodyAcc.meanFreq.X 
  fBodyAcc.meanFreq.Y 
  fBodyAcc.meanFreq.Z
- 
+   Description: Mean of the mean force of body acceleration frequency measure taken in the X/Y/Z direction.
+   Class: Numeric
+   Units:  normalized force 
+   
  fBodyAccJerk.mean.X 
  fBodyAccJerk.mean.Y 
  fBodyAccJerk.mean.Z 
- 
+   Description: Mean of the mean force of body acceleration jerk measure taken in the X/Y/Z direction.
+   Class: Numeric
+   Units:  normalized force 
+   
  fBodyAccJerk.std.X   
  fBodyAccJerk.std.Y 
  fBodyAccJerk.std.Z  
- 
+   Description: Mean of the standard deviation of force of body acceleration jerk measure taken in the X/Y/Z direction.
+   Class: Numeric
+   Units:  normalized force 
+   
  fBodyAccJerk.meanFreq.X    
  fBodyAccJerk.meanFreq.Y 
  fBodyAccJerk.meanFreq.Z 
- 
+   Description: Mean of the mean force of body acceleration jerk frequency measure taken in the X/Y/Z direction.
+   Class: Numeric
+   Units:  normalized force 
+   
  fBodyGyro.mean.X 
  fBodyGyro.mean.Y  
  fBodyGyro.mean.Z  
- 
+   Description: Mean of the mean force of body gyration measure taken in the X/Y/Z direction.
+   Class: Numeric
+   Units:  normalized force 
+   
  fBodyGyro.std.X   
  fBodyGyro.std.Y  
  fBodyGyro.std.Z   
- 
+   Description: Mean of the standard deviation of force of body gyration measure taken in the X/Y/Z direction.
+   Class: Numeric
+   Units:  normalized force 
+   
  fBodyGyro.meanFreq.X 
  fBodyGyro.meanFreq.Y
  fBodyGyro.meanFreq.Z 
- 
+   Description: Mean of the mean force of body gyration frequency measure taken in the X/Y/Z direction.
+   Class: Numeric
+   Units: normalized force 
+   
  fBodyAccMag.mean  
  fBodyAccMag.std   
  fBodyAccMag.meanFreq
- 
+   Description: Mean of the mean force, standard deviation, or mean frequency of body acceleration magnitude measure.
+   Class: Numeric
+   Units: normalized force 
+   
  fBodyBodyAccJerkMag.mean 
  fBodyBodyAccJerkMag.std 
  fBodyBodyAccJerkMag.meanFreq
-          
+   Description: Mean of the mean force, standard deviation, or mean frequency of body acceleration jerk magnitude measure.
+   Class: Numeric
+   Units: normalized force 
+   
  fBodyBodyGyroMag.mean 
  fBodyBodyGyroMag.std 
  fBodyBodyGyroMag.meanFreq
- 
+   Description: Mean of the mean force, standard deviation, or mean frequency of body gyration magnitude measure.
+   Class: Numeric
+   Units: normalized force 
+   
  fBodyBodyGyroJerkMag.mean 
  fBodyBodyGyroJerkMag.std 
  fBodyBodyGyroJerkMag.meanFreq 
- 
+   Description: Mean of the mean force, standard deviation, or mean frequency of body gyration jerk magnitude measure.
+   Class: Numeric
+   Units: normalized force 
+   
  angle_tBodyAccMean_gravity 
- 
+   Description: Mean of the angle measure taken at gravity mean time of body acceleration mean.
+   Class: Numeric
+   Units: angle 
+   
  angle_tBodyAccJerkMean_gravityMean 
- 
+   Description: Mean of the angle measure taken at gravity mean time of body acceleration jerk mean.
+   Class: Numeric
+   Units: angle 
+   
  angle_tBodyGyroMean_gravityMean  
- 
+   Description: Mean of the angle measure taken at gravity mean time of body gyration mean.
+   Class: Numeric
+   Units: angle 
+   
  angle_tBodyGyroJerkMean_gravityMean 
- 
+   Description: Mean of the angle measure taken at gravity mean time of body gyration jerk mean.
+   Class: Numeric
+   Units: angle 
+   
  angle_X_gravityMean
  angle_Y_gravityMean
  angle_Z_gravityMean
- 
+   Description: Mean of the mean angle measure taken at gravity mean time in the X/Y/Z direction.
+   Class: Numeric
+   Units: angle 
