@@ -80,5 +80,5 @@ rm(features)
 # 5 - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 df.ave <- df.mu %>% 
   group_by(Subject, Activity) %>% 
-  summarize_all(funs(mean))
+  summarize_all(list(mean))
 
