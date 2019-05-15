@@ -82,3 +82,8 @@ df.ave <- df.mu %>%
   group_by(Subject, Activity) %>% 
   summarize_all(list(mean))
 
+#Write the output data -- this is the answer of a tidy data set
+write.csv(df.ave, file = "AverageMeasures.csv", row.names = FALSE)
+
+#To read this back in, the script is:
+# df <- read.csv("AverageMeasures.csv", stringsAsFactors = FALSE)
