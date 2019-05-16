@@ -86,4 +86,4 @@ df.ave <- df.mu %>%
 write.table(df.ave, file = "AverageMeasures.txt", row.names = FALSE)
 
 #To read this back in, the script is:
-# df <- read.table("AverageMeasures.txt", header = TRUE, stringsAsFactors = FALSE)
+df <- read.table("AverageMeasures.txt", header = TRUE, stringsAsFactors = FALSE)

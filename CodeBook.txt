@@ -243,4 +243,4 @@ Activity
  angle_Z_gravityMean
    Description: Mean of the mean angle measure taken at gravity mean time in the X/Y/Z direction.
    Class: Numeric
-   Units: angle 
+   Units: angle  
